@@ -61,3 +61,7 @@ app.get('/satis-yap/:kitapId', async (req: Request, res: Response) => {
 app.listen(port, () => {
   console.log(`Akıllı sunucu çalışıyor: http://localhost:${port}`);
 });
+
+
+
+// CI-CD Ajan Tetikleme Testi
