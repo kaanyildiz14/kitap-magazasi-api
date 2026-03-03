@@ -1,4 +1,4 @@
-name: Otomatik Güncelleme Sistemi
+name: Otomatik Guncelleme Sistemi
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
 
 
 jobs:
-  sistemi-güncelle:
+  sistemi-guncelle:
     runs-on: self-hosted
 
     steps: 
@@ -18,4 +18,4 @@ jobs:
         run: npm install
 
       - name: 3. Basari Mesaji Yazdir
-        run: echo "🚀 TEBRIKLER! Yeni kodlar başarıyla MacBook'a çekildi ve sistem güncellendi!"
+        run: echo "🚀 TEBRIKLER! Yeni kodlar basarıyla MacBook'a cekildi ve sistem guncellendi!"
